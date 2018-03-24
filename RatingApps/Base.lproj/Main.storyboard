@@ -114,11 +114,58 @@
                             <outlet property="delegate" destination="eUq-AG-HBD" id="CuD-oG-KlP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Players" id="P1R-xl-GgO"/>
+                    <navigationItem key="navigationItem" title="Players" id="P1R-xl-GgO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oax-Um-ttn">
+                            <connections>
+                                <segue destination="OQR-rg-ES7" kind="presentation" id="Zer-K8-T2c"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dxe-U2-Dho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1525.5999999999999" y="-380.05997001499253"/>
+        </scene>
+        <!--Add Player-->
+        <scene sceneID="M5J-NI-Y5Z">
+            <objects>
+                <tableViewController title="Add Player" id="LDR-8m-aty" customClass="PlayerDetailsViewController" customModule="RatingApps" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0Xy-JQ-0Ry">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="giD-ER-4BI">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="giD-ER-4BI" id="uf3-j8-eEd">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="LDR-8m-aty" id="Nbo-Mf-Sfc"/>
+                            <outlet property="delegate" destination="LDR-8m-aty" id="JNB-9N-qz5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="lTv-Ux-f9N">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="DoK-bJ-o03">
+                            <connections>
+                                <segue destination="enH-Ck-4Ul" kind="unwind" unwindAction="cancelToPlayersViewController:" id="Un6-kc-tAh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="CMv-ge-R9i">
+                            <connections>
+                                <segue destination="enH-Ck-4Ul" kind="unwind" unwindAction="savePlayerDetail:" id="mHB-Bj-80f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I78-ZJ-DUs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="enH-Ck-4Ul" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3257" y="-380"/>
         </scene>
         <!--Players-->
         <scene sceneID="Kam-RU-gy8">
@@ -138,6 +185,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r48-oP-xDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="628" y="-380"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JSg-DI-iUy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OQR-rg-ES7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jFQ-NC-9gR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LDR-8m-aty" kind="relationship" relationship="rootViewController" id="isD-PK-ZQh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTM-eG-TOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2431" y="-380"/>
         </scene>
     </scenes>
     <resources>

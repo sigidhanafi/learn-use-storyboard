@@ -35,3 +35,13 @@ class PlayersViewController: UITableViewController {
     }
 
 }
+
+extension PlayersViewController {
+    @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue){
+        
+    }
+    
+    @IBAction func savePlayerDetail(_ segue: UIStoryboardSegue){
+        
+    }
+}

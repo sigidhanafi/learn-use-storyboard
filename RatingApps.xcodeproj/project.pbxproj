@@ -17,6 +17,7 @@
 		D8CB50A12066BE4000CE31A9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A02066BE4000CE31A9 /* Player.swift */; };
 		D8CB50A32066BE9700CE31A9 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A22066BE9700CE31A9 /* SampleData.swift */; };
 		D8CB50A52066C3F900CE31A9 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */; };
+		D8CB50A72066CA1C00CE31A9 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D8CB50A02066BE4000CE31A9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D8CB50A22066BE9700CE31A9 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D8CB50A02066BE4000CE31A9 /* Player.swift */,
 				D8CB50A22066BE9700CE31A9 /* SampleData.swift */,
 				D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */,
+				D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */,
 			);
 			path = RatingApps;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				D8CB50922066B1EE00CE31A9 /* RatingApps.xcdatamodeld in Sources */,
 				D8CB50A32066BE9700CE31A9 /* SampleData.swift in Sources */,
+				D8CB50A72066CA1C00CE31A9 /* PlayerDetailsViewController.swift in Sources */,
 				D8CB509F2066BD7300CE31A9 /* PlayersViewController.swift in Sources */,
 				D8CB508C2066B1EE00CE31A9 /* ViewController.swift in Sources */,
 				D8CB50A12066BE4000CE31A9 /* Player.swift in Sources */,
