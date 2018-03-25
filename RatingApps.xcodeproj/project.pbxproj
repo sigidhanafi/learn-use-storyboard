@@ -19,6 +19,7 @@
 		D8CB50A52066C3F900CE31A9 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */; };
 		D8CB50A72066CA1C00CE31A9 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */; };
 		D8CB50A92066E5EC00CE31A9 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A82066E5EC00CE31A9 /* GamePickerViewController.swift */; };
+		D8CB50B120675F3300CE31A9 /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CB50AF20675F3300CE31A9 /* Players.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		D8CB50A82066E5EC00CE31A9 /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		D8CB50B020675F3300CE31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RatingApps/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D8CB50892066B1EE00CE31A9 /* AppDelegate.swift */,
 				D8CB508B2066B1EE00CE31A9 /* ViewController.swift */,
 				D8CB508D2066B1EE00CE31A9 /* Main.storyboard */,
+				D8CB50AF20675F3300CE31A9 /* Players.storyboard */,
 				D8CB50932066B1EE00CE31A9 /* Assets.xcassets */,
 				D8CB50952066B1EE00CE31A9 /* LaunchScreen.storyboard */,
 				D8CB50982066B1EE00CE31A9 /* Info.plist */,
@@ -147,6 +150,7 @@
 				D8CB50972066B1EE00CE31A9 /* LaunchScreen.storyboard in Resources */,
 				D8CB50942066B1EE00CE31A9 /* Assets.xcassets in Resources */,
 				D8CB508F2066B1EE00CE31A9 /* Main.storyboard in Resources */,
+				D8CB50B120675F3300CE31A9 /* Players.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +190,14 @@
 				D8CB50962066B1EE00CE31A9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8CB50AF20675F3300CE31A9 /* Players.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CB50B020675F3300CE31A9 /* Base */,
+			);
+			name = Players.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
