@@ -20,6 +20,7 @@
 		D8CB50A72066CA1C00CE31A9 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */; };
 		D8CB50A92066E5EC00CE31A9 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50A82066E5EC00CE31A9 /* GamePickerViewController.swift */; };
 		D8CB50B120675F3300CE31A9 /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CB50AF20675F3300CE31A9 /* Players.storyboard */; };
+		D8CB50B32067658E00CE31A9 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB50B22067658E00CE31A9 /* GestureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		D8CB50A82066E5EC00CE31A9 /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 		D8CB50B020675F3300CE31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RatingApps/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
+		D8CB50B22067658E00CE31A9 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				D8CB50A42066C3F900CE31A9 /* PlayerCell.swift */,
 				D8CB50A62066CA1C00CE31A9 /* PlayerDetailsViewController.swift */,
 				D8CB50A82066E5EC00CE31A9 /* GamePickerViewController.swift */,
+				D8CB50B22067658E00CE31A9 /* GestureViewController.swift */,
 			);
 			path = RatingApps;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				D8CB50A12066BE4000CE31A9 /* Player.swift in Sources */,
 				D8CB508A2066B1EE00CE31A9 /* AppDelegate.swift in Sources */,
 				D8CB50A52066C3F900CE31A9 /* PlayerCell.swift in Sources */,
+				D8CB50B32067658E00CE31A9 /* GestureViewController.swift in Sources */,
 				D8CB50A92066E5EC00CE31A9 /* GamePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

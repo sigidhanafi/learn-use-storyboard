@@ -149,7 +149,7 @@
                             <outlet property="delegate" destination="LDR-8m-aty" id="JNB-9N-qz5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="lTv-Ux-f9N">
+                    <navigationItem key="navigationItem" title="Add Player" id="lTv-Ux-f9N">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="DoK-bJ-o03">
                             <connections>
                                 <segue destination="enH-Ck-4Ul" kind="unwind" unwindAction="cancelToPlayersViewController:" id="Un6-kc-tAh"/>
